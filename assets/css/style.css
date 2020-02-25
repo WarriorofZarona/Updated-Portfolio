@@ -1,0 +1,36 @@
+/* This code is mainly for the sticky footer code, except for background color and image */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("../images/background.png");
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+/* This helps determine size of each image in portfolio.html */
+
+.imgsize {
+    width: 300px;
+    height: 200px;
+    margin: 15px auto;
+}
+
+/* This helps give a text outline to the captions of the portfolio images, making them easier to read even in text-light */
+
+.outline {
+    color: #fff;
+    text-shadow: #000 0px 0px 5px;
+    -webkit-font-smoothing: antialiased;
+}

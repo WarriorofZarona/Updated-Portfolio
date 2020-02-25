@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Andrew Bautista</title>
+
+    <!-- Javascript (mostly needed to get the toggle button to work)-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/d78de1b3fa.js" crossorigin="anonymous"></script>
+
+    <!-- My own CSS Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Brand name, on smaller viewports it shortens to AB-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-info sticky-top">
+            <div class="container px-0">
+                <a class="navbar-brand d-lg-inline-block d-none bg-info p-2 mb-0 rounded text-light h1"
+                    href=" index.html">Andrew
+                    Bautista</a>
+                <a class="navbar-brand d-inline-block d-lg-none bg-info p-2 mb-0 rounded text-light h1"
+                    href="index.html">AB</a>
+
+                <!-- Toggler button-->
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Nav Links, when collapsed it becomes a dropdown menu-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html"><i
+                                    class="far fa-address-card mr-1"></i>About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html"><i
+                                    class="fas fa-project-diagram mr-1"></i>Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><i class="far fa-envelope mr-1"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content goes here-->
+    <div class="content">
+        <div class="container my-3 p-3 border border border-info bg-light">
+            <div class="d-flex row">
+                <div class="align-items-baseline col-lg-12 text-info">
+
+                    <!-- This headline centers onto the middle of the page in smaller viewports-->
+
+                    <h1 class="display-4 text-center text-lg-left">About Me</h1>
+                </div>
+            </div>
+
+
+            <hr class="my-3">
+
+            <!-- Profile picture with a caption, it centers on smaller viewports-->
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <figure class="figure">
+                            <img src="./assets/images/pfp.jpg" class="img-fluid img-thumbnail figure-img rounded"
+                                alt="Profile Picture" />
+                            <figcaption class="figure-caption">Andrew Bautista</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-9 text-secondary">
+                    <p class="lead">Full Stack Web Developer with a managerial background. Strengths include leadership
+                        and teamwork skills that efficiently utilize time management as well as effective role
+                        assignments to complete collaborative tasks and projects in a timely manner. Passionate for
+                        learning how to build a connective, impactful experience through creatively engaging user
+                        interfaces and meaningful online interactions on the web. </p>
+
+                    <p class="lead">Recently earned a certificate in Full Stack Development from Rutgers University,
+                        establishing skills in JavaScript, CSS, React.js, Node.js, and other responsive web designs. Not
+                        afraid to get my hands dirty to problem-solve programming challenges. Positioned to employ my
+                        leadership and technical skills combined with my technical knowledge, making me an advantageous
+                        contributor to any development team.
+                    </p>
+                    <p class="lead">Currently resides in Union, NJ with his wife and daughter. Spare time includes trips
+                        to the park with his family and streaming on his Twitch channel.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky footer-->
+    <footer class="footer">
+        <div class="container-fluid h-25">
+            <div class="row">
+                <div class="col-lg-12 bg-dark border-top border-info border-3 text-center text-bottom text-muted pt-3">
+                    Copyright © 2019
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
